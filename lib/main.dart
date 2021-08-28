@@ -67,10 +67,10 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       body: Container(
         padding: EdgeInsets.only(top: 10.0),
-        color: Color(0xFFF7F1E8),
         child: Container(
+          color: Color(0xFFF7F1E8),
           padding: EdgeInsets.symmetric(horizontal: 30.0),
-          child: Column(
+          child: ListView(
             children: <Widget>[
               Container(
                 child: Text(
